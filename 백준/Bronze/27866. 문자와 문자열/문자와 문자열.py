@@ -1,3 +1,3 @@
-s = input()
-i = int(input())
-print(s[i-1])
+st = input()
+a = int(input())
+print(st[a-1])
