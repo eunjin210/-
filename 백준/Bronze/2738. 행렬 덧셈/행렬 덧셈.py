@@ -1,8 +1,8 @@
-N, M = map(int,input().split())
+from sys import stdin as s
+N, M = map(int,s.readline().split())
 a = []
 for i in range(N):
-    temp = list(map(int, input().split()))
-    a.append(temp)
+    a.append(list(map(int, s.readline().split())))
 for i in range(N):
     temp = list(map(int, input().split()))
     for j in range(M):
